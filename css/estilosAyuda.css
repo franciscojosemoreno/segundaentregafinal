@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Roboto-Regular", sans-serif;
+  src: url(./Roboto/Roboto-Regular.ttf);
+}
+* {
+  margin: 0px;
+}
+body {
+  font-family: "Roboto-Regular", sans-serif;
+}
+h1 {
+  color: #12293d;
+  font-size: 30px;
+  padding: 30px 0px 30px 0px;
+}
+.header {
+  background-color: #12293d;
+  padding: 20px;
+}
+a {
+  color: antiquewhite;
+}
+.centrarTexto {
+  text-align: center;
+}
+.flexMenu {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+footer section h3 {
+  color: red;
+}
+footer {
+  background-color: black;
+  padding: 10px;
+}
+.sinSubrayado {
+  text-decoration: none;
+}
+.inlineBlock {
+  display: inline-block;
+}
+ul li {
+  padding: 10px;
+}
+section {
+  font-size: 20px;
+}
+.paddingGen {
+  padding: 30px;
+}
+a:hover {
+  color: #12293d;
+  background-color: white;
+}
+.centroBoton {
+  display: grid;
+  justify-content: center;
+}
+.imagenFondo {
+  background-image: linear-gradient(#12293d, white);
+  min-width: 100%;
+  display: grid;
+  justify-content: center;
+}
+.boton {
+  color: white;
+  background-color: #12293d;
+  transition: all 1s;
+}
+.boton:hover {
+  border: #12293d solid 10px;
+}
+.tituloAnimado {
+  animation-name: tituloAnimado;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+@keyframes tituloAnimado {
+  from {
+    transform: translate(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
